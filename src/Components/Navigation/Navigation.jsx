@@ -6,14 +6,14 @@ import { CartIcon } from '../Common/CartIcon'
 
 const Navigation = () => {
   return (
-    <nav className='flex items-center py-6 px-8 justify-between gap-40'>
+    <nav className='flex items-center py-6 px-16 justify-between gap-20'>
         <div className='flex items-center gap-6'>
             {/* logo */}
 
             <a className='text-3xl text-black font-bold gap-8' href="/">Shopease</a>
 
         </div>
-        <div className='flex flex-wrap items-center gap-10 flex-1'>
+        <div className='flex flex-wrap items-center gap-10 '>
             {/* Nav items */}
             <ul className='flex gap-14 text-gray-600 hover:text-black'>
                 <li><a href="/">Shop</a></li>
